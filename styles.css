@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(Photos/header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+}  
+.zoom:hover img{
+    transform: scale(1.2);
+}
+.hover:hover{
+    background-color: white;
+    color: #F5A31B;
+}
+.hover2:hover{
+    background-color: #F5A31B;
+    color: #fff;
+}
